@@ -8,11 +8,11 @@ var destructivelyAddElementToBeginningOfArray = ["homo", "hetero"];
 destructivelyAddElementToBeginningOfArray.unshift("bi");
 return destructivelyAddElementToBeginningOfArray;
 
-function addElementToEndOfArray = ["cat", "dog"];
+var addElementToEndOfArray = ["cat", "dog"];
 const addElementToEndOfArrayAgain = [...addElementToEndOfArray, "fish"];
 return addElementToEndOfArrayAgain;
 
-function destructivelyAddElementToEndOfArray = ["homo", "hetero"];
+var destructivelyAddElementToEndOfArray = ["homo", "hetero"];
 destructivelyAddElementToEndOfArray.push("bi");
 return destructivelyAddElementToEndOfArray;
 
