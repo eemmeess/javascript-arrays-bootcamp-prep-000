@@ -31,6 +31,6 @@ var destructivelyRemoveElementFromEndOfArray = ["plus", "minus", "multiply"];
 destructivelyRemoveElementFromEndOfArray.pop();
 return destructivelyRemoveElementFromEndOfArray;
 
-function removeElementFromEndOfArray = ["my", "ym", "fun"];
+var removeElementFromEndOfArray = ["my", "ym", "fun"];
 removeElementFromEndOfArray.slice(0, removeElementFromEndOfArray.length - 1);
 return removeElementFromEndOfArray;
